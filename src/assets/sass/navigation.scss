@@ -1,0 +1,40 @@
+.header-bg
+{
+    background-color: rgb(20, 10, 7, 0.8);
+    height: 75px;
+    position: fixed;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    grid-gap: 19px;
+}
+
+.navigation-item{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.navigation-item__main{
+    text-decoration: none;
+    color: #96785E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.navigation-item__main:hover{
+    color: #FFFFFF;
+}
+
+.navigation-item:hover{
+    color: #96785E;
+}
+
+
+/*Меню навигации и главная секция*/

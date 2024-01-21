@@ -1,0 +1,35 @@
+@charset "UTF-8";
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section__center-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 64px 0px 32px 0px;
+}
+
+/*Сброс стилей и центрирование*//*# sourceMappingURL=base.css.map */
