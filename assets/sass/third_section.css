@@ -1,0 +1,42 @@
+.third-section {
+  display: flex;
+  padding: 30px;
+  justify-content: start;
+  overflow-x: scroll;
+  cursor: grab;
+  overflow: hidden;
+}
+
+.third-section_feedback {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-section_feedback-name {
+  margin: 10px 0 10px 0;
+  text-align: center;
+  color: #140A07;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.third-section_feedback-text {
+  text-align: center;
+  color: #140A07;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+
+.third-section_feedback-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=third_section.css.map */
